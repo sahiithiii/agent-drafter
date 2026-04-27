@@ -4,18 +4,18 @@ Drafter is an AI-powered writing assistant built using Streamlit and LangGraph. 
 
 
 **Overview:** <br>
-The application combines a clean user interface with a tool-augmented language model to provide real-time document editing capabilities. Users interact with the system via chat, and the assistant updates or saves the document based on the intent of the input.
+The application combines a clean user interface with a tool-augmented language model to provide real-time document editing capabilities. Users interact with the system via chat, and the assistant updates or saves the document based on the intent of the input. <br><br>
 
 **Features:** <br>
-AI-assisted document generation and editing
-Real-time document updates through conversational input
-Export functionality with support for .txt files
-Structured agent workflow using LangGraph
-Persistent session-based state management
-Minimal and distraction-free user interface
+-AI-assisted document generation and editing. <br>
+-Real-time document updates through conversational input. <br>
+-Export functionality with support for .txt files. <br>
+-Structured agent workflow using LangGraph. <br>
+-Persistent session-based state management. <br>
+-Minimal and distraction-free user interface. <br><br>
 
-**Architecture**
-The system is built around a tool-enabled agent workflow:
--The agent node processes user input and determines the appropriate response
--The tool node executes actions such as updating or saving the document
--Conditional edges control whether tools are invoked or execution terminates
+**Architecture**<br>
+The system is built around a tool-enabled agent workflow:<br>
+-The agent node processes user input and determines the appropriate response.<br>
+-The tool node executes actions such as updating or saving the document.<br>
+-Conditional edges control whether tools are invoked or execution terminates.<br>
