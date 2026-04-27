@@ -20,6 +20,14 @@ The system is built around a tool-enabled agent workflow:<br>
 -The tool node executes actions such as updating or saving the document.<br>
 -Conditional edges control whether tools are invoked or execution terminates.<br>
 <br>
+**Agent Behavior**<br>
+
+The assistant follows these operational rules:<br>
+
+-All document modifications are executed using the update tool. <br>
+-File export requests are handled using the save tool. <br>
+-Responses are concise and focused on task completion. <br>
+-The full document context is maintained during each update. <br><br>
 **Technology Stack**<br>
 Frontend: Streamlit<br>
 Language Model: Groq  <br>
