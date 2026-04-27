@@ -19,3 +19,10 @@ The system is built around a tool-enabled agent workflow:<br>
 -The agent node processes user input and determines the appropriate response.<br>
 -The tool node executes actions such as updating or saving the document.<br>
 -Conditional edges control whether tools are invoked or execution terminates.<br>
+<br>
+**Technology Stack**
+Frontend: Streamlit<br>
+Language Model: Groq  <br>
+Agent Framework: LangGraph <br>
+Tool Integration: LangChain Tools <br>
+State Management: Streamlit Session Stat <br>
